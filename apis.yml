@@ -1,8 +1,31 @@
 aid: nitricity
 name: Nitricity
-description: Nitricity is a company surfaced as a portfolio company of khosla-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Nitricity is a climate-tech and agricultural-technology company that produces
+  nitrogen fertilizer on-farm from only air, water, and renewable electricity.
+  Founded in 2018 by Stanford graduate researchers Nicolas Pinkowski and Joshua
+  McEnaney, the company uses a solar-powered plasma / electrochemical process to
+  fix atmospheric nitrogen and produce nitric acid and calcium nitrate
+  fertilizers on-site and on-demand, eliminating the fossil-fuel-intensive
+  Haber-Bosch process and long-distance transportation that make conventional
+  fertilizer responsible for roughly 5% of global greenhouse gas emissions.
+  Backed by Khosla Ventures, Fine Structure Ventures, Lowercarbon Capital, and
+  strategic investor Chipotle, Nitricity is a hardware and physical-product
+  company; it publishes a corporate website, blog, and field-trial program but
+  exposes no public API, developer portal, or technical integration surface.
 url: https://raw.githubusercontent.com/api-evangelist/nitricity/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static1.squarespace.com/static/671976319302aa03f9ef16b3/t/671ab69b6fa22b2d6e96ffd6/1737157723693/Nitricity_Primary_Logo_Color.png?format=1500w
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Climate Tech
+- Agriculture Technology
+- Fertilizer
+- Sustainability
+- Clean Energy
+- Nitrogen
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,12 @@ maintainers:
 common:
 - type: Website
   url: https://www.nitricity.co/
+- type: Blog
+  url: https://www.nitricity.co/blog
+- type: PrivacyPolicy
+  url: https://www.nitricity.co/privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
